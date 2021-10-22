@@ -1,7 +1,6 @@
 pyvista
-panel
+panel==0.12.1 
+param==1.11.1 
 django==3.0.3
-colorcet
-pandas
-pyNastran
 channels==2.4.0
+python-dotenv==0.19.1 
