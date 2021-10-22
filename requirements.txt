@@ -1,0 +1,7 @@
+pyvista
+panel
+django==3.0.3
+colorcet
+pandas
+pyNastran
+channels==2.4.0
