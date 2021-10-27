@@ -77,3 +77,10 @@ if __name__ == '__main__':
                      )
 
 
+if __name__.startswith("bokeh"):
+    # start with panel serve script.py
+    explorer = ResultsViewer()
+    exp = explorer.panel()
+    exp.servable()
+
+

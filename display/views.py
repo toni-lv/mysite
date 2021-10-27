@@ -7,5 +7,5 @@ settings.resources = 'inline'
 # Create your views here.
 
 def display_home(request: HttpRequest) -> HttpResponse:
-    script = server_document(request.build_absolute_uri())
+    script = server_document('http://192.168.199.13:5500')
     return render(request, 'display.html', {'script': script})
