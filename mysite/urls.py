@@ -30,9 +30,11 @@ urlpatterns = [
     path('', TemplateView.as_view(template_name='home.html') )
 ]
 
+
 bokeh_apps = [
               autoload("display", display_app.app),
 ]
+
 
 urlpatterns += static_extensions()
 urlpatterns += staticfiles_urlpatterns()
